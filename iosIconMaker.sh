@@ -11,7 +11,7 @@ fi
 source=$1
 folder=$2
 
-mkdir $folder
+mkdir -p $folder
 
 resizeImg () {
 	width=$1
